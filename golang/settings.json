@@ -1,0 +1,25 @@
+{
+    "editor.insertSpaces": true,
+    "go.formatTool": "gofmt",
+    "go.gocodeAutoBuild": false,
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+    "gopls": {
+        "formatting.gofumpt": true
+    },
+    "go.testFlags": [
+        "-v",
+        "-count=1"
+    ],
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true,
+        "editor.insertSpaces": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true,
+            "source.fixAll.eslint": true
+        }
+    }
+}
